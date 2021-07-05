@@ -1,5 +1,5 @@
 # haunted-places-api
-A simple api that fetches haunted places data through the use of keywords.
+A simple API made with Lumen that fetches haunted places data through the use of keywords.
 
 ## Installation
 You can clone the repository to a path of your choice or donwload the zip file and then extract it.
@@ -44,6 +44,8 @@ and `UserHauntSeeder.php` before seeding them so you can choose the values to be
 php artisan db:seed
 ```
 - Then, go to /routes/web.php and uncomment all the routes that are commented in order to use them in Postman.
+## The Data
+The Json file with all the haunted places data is already on the api on /database/data. I downloaded and formatted said file on the [data.com](https://data.world/timothyrenner/haunted-places) Website. Furthermore, you can check out how the data was scraped from the [Shadowlands](http://theshadowlands.net/places/) Website in [this](https://github.com/timothyrenner/shadowlands-haunted-places) repository made by [Timothy Renner](https://github.com/timothyrenner).
 ## Requirements
 - PHP >= 7.3
 - OpenSSL PHP Extension
