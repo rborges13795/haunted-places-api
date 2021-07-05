@@ -43,7 +43,7 @@ and `UserHauntSeeder.php` before seeding them so you can choose the values to be
 ```
 php artisan db:seed
 ```
-- Then, go to /routes/web.php and uncomment all the routes that are commented in order to use then in Postman.
+- Then, go to /routes/web.php and uncomment all the routes that are commented in order to use them in Postman.
 ## Requirements
 - PHP >= 7.3
 - OpenSSL PHP Extension
